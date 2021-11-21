@@ -1,4 +1,4 @@
-# ft_get_next_line
+# get_next_line
 ## Info
 - Prototype: char *get_next_line(int fd);
 - Prototype gnl_old: int	gnl(int fd, char **line);

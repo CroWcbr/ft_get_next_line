@@ -45,7 +45,7 @@ static int	return_and_free_line(int r, char **line)
 		*line = NULL;
 		return (-1);
 	}	
-	if (*line == '\0')
+	if (**line == '\0')
 	{
 		free(*line);
 		*line = NULL;
